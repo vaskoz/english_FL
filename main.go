@@ -5,6 +5,7 @@ import (
 	"io"
 	"os"
 	"sort"
+	"strings"
 )
 
 var (
@@ -61,4 +62,18 @@ func main() {
 	for _, group := range words {
 		fmt.Fprintln(stdout, group)
 	}
+
+	var impossibleFirstLast []string
+
+	for f := 'a'; f <= 'z'; f++ {
+		for l := 'a'; l <= 'z'; l++ {
+			key := string(f) + string(l)
+			if _, found := stats[key]; !found {
+				impossibleFirstLast = append(impossibleFirstLast, key)
+			}
+		}
+	}
+
+	fmt.Fprintln(stdout, "Impossible first and last letter combinations in English:")
+	fmt.Fprintln(stdout, strings.Join(impossibleFirstLast, ", "))
 }
