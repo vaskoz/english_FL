@@ -15,6 +15,8 @@ There are some assumptions in this problem:
 
 There aren't that many choices for possible words that meet these constraints. I wrote a program to show that **at most 4 words** could be candidates for these scrambled words.
 
+Notice that when you review possibilities in scrambled words, only 1 is a common word and the others are increasingly exotic.
+
 # A program to demonstrate that there aren't many possibilities with these constraints.
 
 ```shell
