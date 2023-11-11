@@ -11,6 +11,10 @@ There are some assumptions in this problem:
     2. There are no substitution errors (typos) for any letters.
     3. There are no addition or removal of letters in the word.
 
+## Okay, but why is it easy?
+
+There aren't that many choices for possible words that meet these constraints. I wrote a program to show that **at most 4 words** could be candidates for these scrambled words.
+
 # A program to demonstrate that there aren't many possibilities with these constraints.
 
 # Picture of example text
