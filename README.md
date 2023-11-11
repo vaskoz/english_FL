@@ -23,7 +23,7 @@ The other thing to notice is that number of unique first & last pair combination
 bq, dj, dq, ej, fj, gq, hq, jj, jq, kq, lj, oq, pj, qj, qq, uj, vj, vq, wj, wq, xb, xj, xq, xu, xw, yj, yq, zj, zv, zw
 ```
 
-Lastly, logical English sentences are limited and this constraint and makes it easier to guess what the next word should be in the sentence. This is exactly why [n-gram, recurrent neural network and LLMs work](https://en.wikipedia.org/wiki/Word_n-gram_language_model).
+Lastly, logical English sentences are limited and this constraint and makes it easier to guess what the next word should be in the sentence. This is exactly why [n-gram, recurrent neural network and LLMs work](https://en.wikipedia.org/wiki/Word_n-gram_language_model). So, while 'weird' and 'wired' are both candidates, it's very likely only 1 of these makes sense in the context of a sentence.
 
 > A word n-gram language model is a purely statistical model of language. It has been superseded by recurrent neural network-based models, which has been superseded by large language models. [1] It is based on an assumption that the probability of the next word in a sequence depends only on a fixed size window of previous words.
 
