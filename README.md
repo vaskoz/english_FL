@@ -17,7 +17,7 @@ There aren't that many choices for possible words that meet these constraints. I
 
 Notice that when you review possibilities in scrambled words, only 1 is a common word and the others are increasingly exotic.
 
-Lastly, logical English sentences are limited and this constraint and makes it easier to guess what the next word should be in the sentence. This is exactly why [n-gram, recurrent neural network and LLMs work](https://en.wikipedia.org/wiki/Word_n-gram_language_model). So, while 'weird' and 'wired' are both candidates, it's very likely only 1 of these makes sense in the context of a sentence.
+Lastly, logical English sentences are limited and this constraint and makes it easier to guess what the next word should be in the sentence. This is exactly why [n-gram, recurrent neural network and LLMs work](https://en.wikipedia.org/wiki/Word_n-gram_language_model). So, while 'weird' and 'wired' are both candidates if scrambled, it's very likely only 1 of these makes sense in the context of a sentence.
 
 > A word n-gram language model is a purely statistical model of language. It has been superseded by recurrent neural network-based models, which has been superseded by large language models. [1] It is based on an assumption that the probability of the next word in a sequence depends only on a fixed size window of previous words.
 
