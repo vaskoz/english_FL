@@ -17,6 +17,39 @@ There aren't that many choices for possible words that meet these constraints. I
 
 # A program to demonstrate that there aren't many possibilities with these constraints.
 
+```shell
+go run main.go < words_alpha.txt
+Unique first/last pairs 646
+4
+26
+[ceratin certain citrean creatin]
+[balistes bastiles bestials blasties]
+[tairge tirage triage trigae]
+[caliver caviler claiver clavier]
+[denudes dudeens duendes dundees]
+[saintless saltiness slatiness stainless]
+[sipers speirs spiers spires]
+[spirts sprits stirps strips]
+[scepters sceptres specters spectres]
+[slipes speils spiels spiles]
+[benote betone bonete bontee]
+[weird wierd wired wried]
+[petrous pouters proetus proteus]
+[pastries piasters piastres piratess]
+[painters pantries parentis pertains]
+[palets petals plates pleats]
+[partless persalts plasters psalters]
+[partley peartly platery prelaty]
+[salter slater staler stelar]
+[unparsed unrasped unspared unspread]
+[warstles wartless wastrels wrastles]
+[carlos carols claros corals]
+[carets cartes caters crates]
+[palster pastler plaster psalter]
+[tares tears teras treas]
+[felid field filed flied]
+```
+
 # Picture of example text
 
 ![Screenshot of scrambled English text where the first and last letter stay in the correct position, but the middle is randomly scrambled.](ScrambledEnglishReadable.jpg)
