@@ -1,5 +1,5 @@
 # english_FL
-What if you randomly shuffled the letters between the first and last in the English language. How hard would it be to descramble it while reading?
+What if you randomly shuffled the letters between the first and last letter for every word in an English sentence. How hard would it be to read?
 
 # It's pretty easy, but why?
 
