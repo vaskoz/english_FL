@@ -17,6 +17,8 @@ There aren't that many choices for possible words that meet these constraints. I
 
 Notice that when you review possibilities in scrambled words, only 1 is a common word and the others are increasingly exotic.
 
+The other thing to notice is that number of unique first & last pair combinations in this dictionary is **646**. The total possible in English for a 26-letter alphabet is exactly **26^2=676**. This means there are exactly **676-646 = 30** combinations of a first letter & last letter that NEVER appear in the English dictionary.
+
 # A program to demonstrate that there aren't many possibilities with these constraints.
 
 ```shell
